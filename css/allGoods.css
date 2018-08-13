@@ -1,0 +1,299 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:320px;
+    height:auto;
+    background:#fff;
+}
+.wrapper{
+    width:100%;
+}
+.header_div{
+    width:100%;
+    height:auto;
+    background-color:#3AC0B5;
+}
+.header_title{
+    padding:5px 15px;
+    color:#fff;
+}
+.header_location{
+    padding-top:5px;
+}
+.header_location>span{
+    font-size:0.8em;
+}
+.header_location>span>i{
+    font-size:1em;
+}
+.header_search{
+    height:30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.header_search input{
+    padding-left:23px;
+    width: 100%;
+    height:25px;
+    outline: none;
+    border: none;
+    background: url("../img/search_home.png") no-repeat -3px -4px;
+    position:relative;
+    top:2px;
+    font-size:0.75em;
+}
+.header_my{
+    width:40px;
+    float:right;
+}
+.header_my>a{
+    width:100%;
+    height:100%;
+    display:block;
+}
+.header_my>a img{
+    width:25px;
+    height:25px;
+    float:right;
+}
+.main_div{
+    width:100%;
+    height:488px;
+}
+.fenlei{
+    width:40%;
+    height:488px;
+    overflow:hidden;
+}
+.fenlei_ul{
+    padding:0;
+    margin:0;
+}
+.menu_lists{
+    width:100%;
+    text-align:center;
+    font-size:1em;
+    color:rgba(0,0,0,.7);
+    padding:14.5px 0px;
+    background:#EBEBEB;
+}
+.selected_li{
+    color:#fff;
+    background:#3AC0B5;
+}
+.list_con{
+    width:60%;
+    height:488px;
+    overflow-y:scroll;
+}
+.list_con>a{
+    display:block;
+    width:100%;
+    height:auto;
+}
+.goods_lists{
+    padding:3px 5px;
+    margin: 15px 0px;
+}
+.goods_img{
+    width:40%;
+    height:auto;
+}
+.goods_img a{
+    display:block;
+    width:100%;
+    height:auto;
+}
+.goods_info{
+    width:60%;
+    padding-left:10px;
+}
+.goods_name{
+    line-height: 1.2em;
+    font-size: 0.85em;
+}
+.price{
+    line-height:1.2em;
+}
+.price_span{
+    color:#3AC0B5;
+    font-size:1em;
+    font-weight:bold;
+}
+.add_num,.sub_num{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    text-align:center;
+    line-height:18px;
+    border:1px solid #ccc;
+    border-radius:50%;
+}
+.dianpu_name{
+    font-size:0.85em;
+    color:#ccc;
+}
+.goods_img_cart{
+    width:90px;
+}
+.goods_info_cart{
+    width:200px;
+}
+.goods_info .goods_name{
+    font-size: 1em;
+    color: #000;
+    line-height: 1em;
+    display:block;
+}
+.goods_name a{
+    font-size: 1em;
+    color: #000;
+    line-height: 1em;
+    text-decoration:none;
+}
+.price{
+    padding:5px 0px;
+}
+.goods_info_cart .num_span{
+    color:#fff;
+}
+.gwcDiv{
+    width:100%;
+    height:40px;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+.gwc_l{
+    width:60%;
+    height:40px;
+    background:#000;
+    opacity:0.3;
+    padding:10px 10px;
+    color:#999;
+}
+.gwc_r{
+    width:40%;
+    background:#000;
+    opacity:0.6;
+    color:#fff;
+    height:40px;
+    padding:10px 10px;
+    font-size:14px;
+}
+.cart_span{
+    display:inline-block;
+    width:28px;
+    height:28px;
+    text-align:center;
+    line-height:28px;
+    border:2px solid #ccc;
+    background:#999;
+    color:#fff;
+    border-radius:50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu_fixed{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:320px;
+    height:60px;
+    z-index:1000;
+    background:#000;
+    opacity:0.4;
+}
+.menu_pos_div{
+    width:100%;
+}
+.menu_pos_list{
+    padding:10px  0px;
+    width:25%;
+    height:30px;
+    color:#fff;
+}
+.menu_pos_list i{
+    display:inline-block;
+    width:100%;
+    height:auto;
+}
+.menu_pos_list a{
+    color:#fff;
+}
+.cart_show{
+    position:absolute;
+    width:320px;
+    height:400px;
+    bottom:80px;
+    left:0px;
+    z-index:999;
+    background:rgba(0,0,0,.6);
+    overflow-y:scroll;
+    display:none;
+}
+.cart_show_title{
+    padding:5px 15px;
+}
+.cart_show_close{
+    font-size:1em;
+    color:#fff;
+}
+.cart_show_null{
+    font-size:1em;
+    color:#fff;
+}
+.cart_show_null i{
+    color:#fff;
+}
+.cart_show_lists{
+    margin:10px 0px;
+}
+.total_price{
+    position:fixed;
+    bottom:60px;
+    width:320px;
+    height:40px;
+    line-height:40px;
+    padding:5px 15px;
+    color:#fff;
+    font-size:1.2em;
+    font-weight:bold;
+    background:rgba(0,0,0,.6);
+}
+.goBuy{
+    line-height:20px;
+    font-size:1em;
+    padding:5px 6px;
+    background:#FF9900;
+    float:right;
+    border-radius:6px;
+}

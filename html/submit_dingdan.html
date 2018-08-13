@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,width=320">
+    <title></title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/submit_dingdan.css">
+</head>
+<body>
+<script>
+    window.onload=function (){
+        var back=document.getElementsByClassName("back_span")[0];
+        back.onclick=function(){
+            history.back();
+        }
+        var submit=document.getElementsByClassName("btn_submit")[0];
+        submit.onclick=function (){
+            location.href="../index.html";
+        }
+    }
+</script>
+<div class="wrapper">
+    <div class="row header_title">
+        <div class="col-xs-2 header_back">
+            <span class="back_span"><img class="img-responsive" src="../img/arrow_left_home.png"></span>
+        </div>
+        <div class="col-xs-10 text-center header_txt">
+            <span>提交订单</span>
+        </div>
+    </div>
+    <div class="row add_div">
+        <div class="col-xs-10 add_div_left">
+            <div class="row clearfix user_info">
+                <div class="pull-left user_name">
+                    <span><i class="glyphicon glyphicon-user"></i></span>
+                    <span>郭小帅</span>
+                </div>
+                <div class="user_tel pull-left ">
+                    <span><i class="glyphicon glyphicon-earphone"></i></span>
+                    <span>131****1111</span>
+                </div>
+            </div>
+            <div class="row user_add">
+                <span class="add_pro">广东省</span>
+                <span class="add_city">广州市</span>
+                <span class="add_qu">越秀区</span>
+                <span class="add_other">广州中大道中111号</span>
+            </div>
+        </div>
+        <div class="col-xs-2 text-right icon_pen">
+            <span><i class="glyphicon glyphicon-pencil"></i></span>
+        </div>
+    </div>
+    <div class="row good_select_div">
+        <div class="col-xs-3 goods_select_lists">
+            <img src="../img/5b44623809ae7.jpg" class="img-responsive" />
+        </div>
+        <div class="col-xs-3 goods_select_lists">
+            <img src="../img/5b44623809ae7.jpg" class="img-responsive" />
+        </div>
+        <div class="col-xs-3 goods_select_lists">
+            <img src="../img/5b44623809ae7.jpg" class="img-responsive" />
+        </div>
+        <div class="col-xs-3 goods_select_lists">
+            <div class="goods_number_div">
+                <span>共<span class="goods_num">9</span>件</span>
+                <a href="./select_products.html"><span><i class="glyphicon glyphicon-menu-right"></i></span></a>
+            </div>
+        </div>
+    </div>
+    <div class="row favor">
+        <div class="col-xs-6 favor_div">
+            <span>优惠券</span>
+            <span class="keyong_favor">1张可用</span>
+        </div>
+        <div class="col-xs-6 text-right favor_div2">
+            <a href="#"><span>已使用<i class="glyphicon glyphicon-menu-right"></i></span></a>
+        </div>
+    </div>
+    <div class="row beizhu">
+        <div class="col-xs-12 beizhu_div">
+            <span class="beizhu_title">订单备注</span>
+        </div>
+        <div class="col-xs-12 beizhu_con">
+            <textarea placeholder="限50个字之内"></textarea>
+        </div>
+    </div>
+    <div class="row peisong">
+        <div class="col-xs-12 peisong_div">
+            <span class="peisong_title">配送方式</span>
+        </div>
+        <div class="col-xs-12 kuaidi_div">
+            <span class="pull-left">快递物流</span>
+            <span class="pull-right">上门自提</span>
+        </div>
+        <div class="col-xs-12 clearfix time_div">
+            <span class="select_span">选配配送时间</span>
+            <span class="pull-left input_span"><input type="text" /><i class="glyphicon glyphicon-calendar"></i></span>
+            <span class="pull-right input_span"><input type="text" /><i class="glyphicon glyphicon-time"></i></span>
+        </div>
+    </div>
+    <div class="row pay">
+        <div class="col-xs-12 zhifu">
+            <p class="zhifu_p1">支付方式</p>
+            <div class="clearfix zhifu_way">
+                <span class="pull-left zhifu_span">在线支付</span>
+                <span class="pull-right zhifu_span">货到付款</span>
+            </div>
+            <p class="p2">支付宝支付<span><i class="glyphicon glyphicon-ok"></i></span></p>
+            <p class="p3">微信支付<span><i class="glyphicon glyphicon-ok"></i></span></p>
+        </div>
+    </div>
+    <div class="row total_money">
+        <p class="clearfix"><span class="pull-left">商品金额</span><span class="pull-right right_span_money"><span class="good_cost">2250</span>元</span></p>
+        <p class="clearfix"><span class="pull-left">运费</span><span class="pull-right right_span_money"><span class="trans_cost">10</span>元</span></p>
+    </div>
+    <div class="row pos_fixed">
+        <div class="col-xs-8 pos_div1">
+            <span>实付款:<span>540</span>元</span>
+        </div>
+        <div class="col-xs-4 text-center pos_div2">
+            <span class="btn_submit">提交订单</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

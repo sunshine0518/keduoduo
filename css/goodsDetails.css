@@ -1,0 +1,184 @@
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    background:#fff;
+}
+.wrapper{
+    width:320px;
+    height:auto;
+}
+.header{
+    padding:4px 15px;
+    width:100%;
+    height:auto;
+    background:#3AC0B5;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    color:#fff;
+}
+.icon_back{
+    width:30px;
+    height:30px;
+}
+.icon_back span,.icon_back a{
+    display:block;
+}
+.header_title span{
+    font-size:1.1em;
+    display:inline-block;
+    margin-top:0.2em;
+}
+.icon_navigation i{
+    font-size:1.2em;
+    margin-top:0.4em;
+}
+.main_detail{
+    width:100%;
+    height:260px;
+    position:relative;
+}
+.detail_img{
+    width:100%;
+}
+.detail_img img{
+    width:320px;
+    height:260px;
+}
+.detail_txt{
+    position:absolute;
+    width:100%;
+    height:60px;
+    bottom:0px;
+    left:0px;
+    color:#fff;
+    padding-left:1em;
+}
+.p1{
+    font-size:1em;
+    line-height:2.4em;
+}
+.p2{
+    font-size:0.85em;
+}
+.buy_div{
+    width:100%;
+    height:auto;
+    padding:10px;
+}
+.price{
+    position:relative;
+    top:5px;
+}
+.now_price{
+    color:#999;
+    font-size:0.85em;
+    font-weight:lighter;
+}
+.now_money{
+    font-size:1.5em;
+    color:#3AC0B5;
+    font-weight:bold;
+}
+.menshi_price{
+    color:#999;
+    font-size:0.85em;
+    font-weight:lighter;
+}
+.addCart span{
+    display:inline-block;
+    padding:6px 10px;
+    background:#FF9900;
+    border-radius:6px;
+}
+.addCart span a{
+    color:#fff;
+}
+.pingjia{
+    width:100%;
+    height:auto;
+    margin:15px 0px;
+}
+.pingjia_title{
+    width:100%;
+    padding:0px 15px 15px 15px;
+    border-bottom:1px solid #ccc;
+}
+.pingjia_title span{
+    font-size:1em;
+    color:#000;
+}
+.pingjia_lists{
+    width:100%;
+    height:auto;
+}
+.pingjia_div{
+    margin:10px 0px;
+    padding:10px 15px;
+    border-bottom:1px solid #ccc;
+}
+.pingjia_info{
+    margin-bottom:10px;
+}
+.pingjiaer_img{
+    width:50px;
+    height:auto;
+}
+.pingjiaer_img img{
+    border-radius:50%;
+    border:1px solid #ccc;
+}
+.pingjia_user span{
+    font-size:1em;
+    color:#000;
+    position:relative;
+    top:8px;
+    left:5px;
+}
+.pingjia_date span{
+    color:#999;
+    font-size:1em;
+    margin-top:6px;
+    display:inline-block;
+}
+.pingjia_con p{
+    line-height:1.4em;
+    color:#000;
+    font-size:0.85em;
+}
+.showAll{
+    padding:10px 15px;
+    border-bottom:1px solid #ccc;
+}
+.showAll span a{
+    color:#3AC0B5;
+    text-decoration: none;
+    font-size:1em;
+}
+.aboutFood{
+    width:100%;
+    height:auto;
+}
+.food_img_div{
+    width:100%;
+    height:260px;
+}
+.food_img_div img{
+    width:320px;
+    height:260px;
+}
+.food_more_title{
+    padding:5px 15px;
+    color:#3AC0B5;
+    font-size:1em;
+    font-weight:bold;
+}
+.food_more_p{
+    padding:5px 15px;
+    font-size:0.85em;
+}
+.food_more_p p{
+    line-height:2em;
+    text-indent: 2em;
+}

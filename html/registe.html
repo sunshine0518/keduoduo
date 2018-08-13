@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <meta name="viewport" content="width=device-width,width=320">
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        body{
+            background:#fff;
+        }
+        .wrapper{
+            width:320px;
+            height:auto;
+        }
+        .header{
+            padding:4px 15px;
+            width:100%;
+            height:auto;
+            background:#3AC0B5;
+            border-top:1px solid #000;
+            border-bottom:1px solid #000;
+            color:#fff;
+        }
+        .icon_back{
+            width:30px;
+            height:30px;
+        }
+        .icon_back span,.icon_back a{
+            display:block;
+        }
+        .header_title span{
+            font-size:1.1em;
+            display:inline-block;
+            margin-top:0.2em;
+        }
+        .icon_navigation i{
+            font-size:1.2em;
+            margin-top:0.4em;
+        }
+        .main_div{
+            padding:15px 0px;
+        }
+        .input_div{
+            width:100%;
+            height:auto;
+            margin:15px 0px;
+        }
+        .input_div label{
+            color:#3AC0B5;
+            font-size:1em;
+            font-weight:lighter;
+            position:relative;
+            top:4px;
+            left:-4px;
+        }
+        .input_div input{
+            outline:none;
+            border:1px solid #3AC0B5;
+            border-radius:6px;
+            padding:3px 10px;
+        }
+        .btn_div{
+            width:70%;
+        }
+        .btn_div input[type="button"]{
+            width:100%;
+            background:#fff;
+            color:#3AC0B5;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="row header">
+        <div class="col-xs-2 icon_back">
+            <span><a href="./login.html"><img class="img-responsive" src="../img/arrow_left_home.png"></a></span>
+        </div>
+        <div class="col-xs-8 text-center header_title">
+            <span>客多多</span>
+        </div>
+        <div class="col-xs-2 text-right icon_navigation">
+            <i class="glyphicon glyphicon-list"></i>
+        </div>
+    </div>
+    <div class="row main_div">
+        <div class="row input_div">
+            <div class="col-xs-3 text-right ">
+                <label>用户名:</label>
+            </div>
+            <div class="col-xs-9">
+                <input type="text" placeholder="请输入用户名"/>
+            </div>
+        </div>
+        <div class="row input_div">
+            <div class="col-xs-3 text-right ">
+                <label>密码:</label>
+            </div>
+            <div class="col-xs-9">
+                <input type="password"  placeholder="请输入密码"/>
+            </div>
+        </div>
+        <div class="row input_div">
+            <div class="col-xs-3 text-right ">
+                <label>确认密码:</label>
+            </div>
+            <div class="col-xs-9">
+                <input type="password" placeholder="请确认密码"/>
+            </div>
+        </div>
+        <div class="row input_div">
+            <div class="col-xs-3 text-right ">
+                <label>手机号:</label>
+            </div>
+            <div class="col-xs-9">
+                <input type="text" placeholder="请输入手机号"/>
+            </div>
+        </div>
+        <div class="row input_div">
+            <div class="col-xs-3 text-right ">
+                <label>邮箱:</label>
+            </div>
+            <div class="col-xs-9">
+                <input type="text" placeholder="请输入邮箱"/>
+            </div>
+        </div>
+        <div class="row input_div">
+            <div class="center-block  btn_div">
+                <input type="button" value="注册" id="btn_res">
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    window.onload=function (){
+        var zhuce=document.getElementById("btn_res");
+        zhuce.onclick=function (){
+
+        }
+    }
+</script>
+</body>
+</html>

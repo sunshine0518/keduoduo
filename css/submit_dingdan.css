@@ -1,0 +1,252 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:320px;
+    height:auto;
+}
+.wrapper{
+    width:320px;
+}
+.header_title{
+    width:320px;
+    height:auto;
+    background:#3AC0B5;
+    padding:5px 15px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:999;
+}
+.header_back{
+    width:30px;
+    height:30px;
+}
+.header_txt span{
+    color:#fff;
+    font-size:1em;
+    position:relative;
+    top:5px;
+}
+.add_div{
+    margin:15px 0px;
+    padding:0px 15px;
+    width:100%;
+    height:auto;
+    color:#999;
+    font-size:0.85em;
+    margin-top:60px;
+}
+.user_tel{
+    margin-left:1em;
+}
+.icon_pen{
+    padding-top:6px;
+}
+.good_select_div{
+    width:100%;
+    padding:3px 0px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    height:auto;
+}
+.goods_select_lists{
+    padding:3px 5px;
+}
+.goods_number_div{
+    margin-top:24px;
+    font-size:1em;
+    color:#999;
+}
+.goods_number_div a{
+    color:#999;
+}
+.favor{
+    margin:10px 0px;
+    padding:10px 15px;
+    color:#000;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.favor_div{
+    position:relative;
+}
+.keyong_favor{
+    position:absolute;
+    top:-5px;
+    left:45px;
+    border:1px solid #ff9000;
+    background:#ff9000;
+    border-radius:4px;
+    color:#fff;
+    padding:3px 5px;
+    display:inline-block;
+}
+.favor_div2,.favor_div2 a{
+    color:#999;
+}
+.beizhu{
+    margin:15px 0px;
+    padding:5px 15px;
+    border-bottom:1px solid #ccc;
+}
+.beizhu_title{
+    color:#000;
+    font-size:1em;
+}
+.beizhu_con{
+    color:#000;
+    font-size:1em;
+    margin-top:10px;
+}
+.beizhu_con textarea{
+    width:100%;
+    height:50px;
+    border:1px solid #ccc;
+    padding:5px 10px;
+    border-radius:6px;
+}
+.peisong{
+    margin:15px 0px;
+    padding:5px 15px;
+    border-bottom:1px solid #ccc;
+}
+.peisong_div{
+    color:#000;
+    font-size:1em;
+}
+.kuaidi_div{
+    width:100%;
+    margin-top:15px;
+}
+.kuaidi_div span{
+    display:inline-block;
+    padding:3px 5px;
+    border:1px solid #999;
+    color:#999;
+    border-radius:6px;
+}
+.kuaidi_div span:nth-child(1){
+    border:1px solid rgba(253, 141, 0, 0.27);
+    color: #ff9000;
+    background:rgba(253, 141, 0, 0.27);
+}
+.time_div{
+    margin:15px 0px;
+    color:#000;
+}
+.select_span{
+    display:block;
+    font-size:1em;
+}
+.input_span{
+    margin-top:10px;
+    width:120px;
+    height:40px;
+    padding:5px 0px;
+    border:1px solid #999;
+    border-radius:8px;
+    display:inline-block;
+    position:relative;
+}
+.input_span input{
+    outline:none;
+    border:none;
+    width: 110px;
+    height:30px;
+    padding-right:20px;
+    display:inline-block;
+}
+.input_span i{
+    position:absolute;
+    top:15px;
+    left:100px;
+}
+.pay{
+    padding:5px 15px;
+    margin:15px 0px;
+    border-bottom:1px solid #ccc;
+}
+.zhifu_p1{
+    line-height:2em;
+    color:#000;
+}
+.zhifu_way{
+    width:100%;
+    margin-top:10px;
+}
+.zhifu_span{
+    display:inline-block;
+    padding:3px 5px;
+    border:1px solid #999;
+    color:#000;
+    border-radius:6px;
+}
+.zhifu_way span:nth-child(1){
+    border:1px solid rgba(253, 141, 0, 0.27);
+    color: #ff9000;
+    background:rgba(253, 141, 0, 0.27);
+}
+.p2,.p3{
+    line-height:50px;
+    height:50px;
+    color:#999;
+    padding:5px 0px;
+    margin-top:10px;
+    position:relative;
+}
+.p2 span,.p3 span{
+    display:block;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #999;
+    background:#fff;
+    position:absolute;
+    right:10px;
+    top:16px;
+}
+.p2 span{
+    background:#ff9000;
+    border:1px solid #ff9000;
+}
+.p2 i,.p3 i{
+    color:#fff;
+    font-size:1em;
+    font-weight:lighter;
+}
+.total_money{
+    padding:0px 15px;
+    margin-bottom:60px;
+}
+.total_money p{
+    height:40px;
+    line-height:40px;
+    font-size:1em;
+    color:#000;
+}
+.right_span_money{
+    color:#ff9000;
+}
+.pos_fixed{
+    position:fixed;
+    z-index:999;
+    bottom:0px;
+    height:60px;
+    line-height:60px;
+    width:320px;
+}
+.pos_div1{
+    background:rgba(0,0,0,.9);
+    color:#fff;
+    padding-left:15px;
+    font-size:1.2em;
+}
+.pos_div2{
+    background:#ff9000;
+    color:#fff;
+    font-size:1.2em;
+}

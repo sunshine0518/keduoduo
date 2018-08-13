@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,width=320">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        body{
+            background:#fff;
+        }
+        .wrapper{
+            width:320px;
+            height:auto;
+        }
+        .header{
+            padding:4px 15px;
+            width:100%;
+            height:auto;
+            background:#3AC0B5;
+            border-top:1px solid #000;
+            border-bottom:1px solid #000;
+            color:#fff;
+        }
+        .icon_back{
+            width:30px;
+            height:30px;
+        }
+        .icon_back span,.icon_back a{
+            display:block;
+        }
+        .header_title span{
+            font-size:1.1em;
+            display:inline-block;
+            margin-top:0.2em;
+        }
+        .icon_navigation i{
+            font-size:1.2em;
+            margin-top:0.4em;
+        }
+        .login_way{
+            width:100%;
+            height:auto;
+            padding:10px 0px;
+            border-bottom:2px solid #ccc;
+        }
+        .login_by_zhanghao{
+            position:relative;
+        }
+        .login_by_tel{
+            position:relative;
+        }
+        .login_by_zhanghao span,.login_by_tel span{
+            font-size:1em;
+        }
+        .login_select{
+            color:#3AC0B5;
+        }
+        .pos_span{
+            position:absolute;
+            width:150px;
+            height:2px;
+            background:#3AC0B5;
+            top:30px;
+            left:5px;
+            display:none;
+        }
+        .login_by_zhanghao .pos_span{
+            display:block;
+        }
+        .main_div{
+            width:100%;
+            padding:15px 0px;
+        }
+        .input_div{
+            width:70%;
+            height:auto;
+            border:1px solid #3AC0B5;
+            border-radius:10px;
+            padding:3px 15px;
+            margin:20px auto;
+        }
+        .input_div input{
+            width:100%;
+            height:30px;
+            outline:none;
+            border:none;
+            font-size:1em;
+            color:#000;
+        }
+        .btn_submit{
+            padding:0px;
+            border-radius:5px;
+        }
+        .btn_submit input[type="button"]{
+            border-radius:5px;
+            font-size:1em;
+            color:#3AC0B5;
+            background:#fff;
+        }
+        .other_div{
+            padding:5px 45px;
+        }
+        .other_div a{
+            text-decoration: none;
+            color:#3AC0B5;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="row header">
+        <div class="col-xs-2 icon_back">
+            <span><a href="../index.html"><img class="img-responsive" src="../img/arrow_left_home.png"></a></span>
+        </div>
+        <div class="col-xs-8 text-center header_title">
+            <span>客多多</span>
+        </div>
+        <div class="col-xs-2 text-right icon_navigation">
+            <i class="glyphicon glyphicon-list"></i>
+        </div>
+    </div>
+    <div class="row login_way">
+        <div class="col-xs-6 text-center login_by_zhanghao">
+            <span class="login_select">账号登录</span>
+            <span class="pos_span"></span>
+        </div>
+        <div class="col-xs-6 text-center login_by_tel">
+            <span class="login_other">手机号登录</span>
+            <span class="pos_span"></span>
+        </div>
+    </div>
+    <div class="row main_div">
+        <form class="div_form">
+            <div class="center-block input_div">
+                <input type="text" placeholder="请输入账号" />
+            </div>
+            <div class="center-block input_div">
+                <input type="password" placeholder="请输入密码" />
+            </div>
+            <div class="center-block input_div btn_submit">
+                <input type="button" value="登录" />
+            </div>
+        </form>
+    </div>
+    <div class="row other_div">
+        <div class="col-xs-6 text-left">
+            <span><a href="#">忘记密码</a></span>
+        </div>
+        <div class="col-xs-6 text-right">
+            <span><a href="registe.html">立即注册</a></span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

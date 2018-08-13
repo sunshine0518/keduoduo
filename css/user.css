@@ -1,0 +1,95 @@
+* {
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    width:100%;
+    height:auto;
+}
+.header{
+    width:100%;
+    height:auto;
+    background:#3AC0B5;
+    padding:15px 15px;
+}
+.icon_back span{
+    width: 30px;
+    height:30px;
+    line-height:30px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.2);
+    display: inline-block;
+    box-shadow: 0 0 0 0.1rem rgba(0,0,0,.1);
+}
+.header_user span{
+    font-size:1.2em;
+    color:#fff;
+    position:relative;
+    left:-20px;
+}
+.user_img{
+    margin:20px auto;
+    width:36%;
+    height:auto;
+}
+.user_img span{
+    display:block;
+    width:100%;
+    background:#fff;
+    height:auto;
+    border-radius:50%;
+    padding:3px;
+}
+.user_img span img{
+    max-width:100%;
+    border-radius:50%;
+}
+.user_dingdan{
+    width:100%;
+    height:auto;
+}
+.user_dingDiv{
+    width:25%;
+    height:auto;
+    color:#3AC0B5;
+}
+.user_dingDiv p{
+    line-height:2em;
+    font-size:1em;
+}
+.user_info{
+    margin-top:50px;
+    width:100%;
+}
+.user_infoDIv{
+    width:100%;
+    padding:5px 10px;
+    margin:10px 0px;
+    border-top:1px solid #f0f0f0;
+    border-bottom:1px solid #f0f0f0;
+}
+.icon_span{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background:red;
+    padding:4px;
+    border-radius:6px;
+}
+.icon_span i{
+    color:#fff;
+    font-size:1.5em;
+}
+.user_infoTxt{
+    font-size:1em;
+    color:rgba(0,0,0,.6);
+    position:relative;
+    top:-4px;
+    margin-left:0.5em;
+}
+.user_infoTxt a{
+    float:right;
+    position:relative;
+    top:5px;
+    color:rgba(0,0,0,.6);
+}

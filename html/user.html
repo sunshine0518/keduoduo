@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,width=320">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/user.css">
+    <script src="../js/jquery-3.0.0.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="row header">
+        <div class="col-xs-2 icon_back">
+            <span class="back_span"><img class="img-responsive" src="../img/arrow_left_home.png"></span>
+        </div>
+        <div class="col-xs-10 text-center header_user">
+            <span>郭小帅</span>
+        </div>
+    </div>
+    <div class="row user_img">
+        <span><img src="../img/head01.jpg"></span>
+    </div>
+    <div class="row user_dingdan">
+        <div class="col-xs-3 text-center user_dingDiv">
+            <p class="number">2</p>
+            <p class="status">待付款</p>
+        </div>
+        <div class="col-xs-3 text-center user_dingDiv">
+            <p class="number">1</p>
+            <p class="status">已付款</p>
+        </div>
+        <div class="col-xs-3 text-center user_dingDiv">
+            <p class="number">0</p>
+            <p class="status">配送中</p>
+        </div>
+        <div class="col-xs-3 text-center user_dingDiv">
+            <p class="number">36</p>
+            <p class="status">已完成</p>
+        </div>
+    </div>
+    <div class="user_info">
+        <div class="user_infoDIv">
+            <span style="background:#51BDBD;" class="icon_span"><i class="glyphicon glyphicon-list-alt"></i></span>
+            <span class="user_infoTxt">我的订单<a href="#"><i class="glyphicon glyphicon-menu-right"></i></a></span>
+        </div>
+        <div class="user_infoDIv">
+            <span style="background:#77C31F;" class="icon_span"><i class="glyphicon glyphicon-user"></i></span>
+            <span class="user_infoTxt">我的资料<a href="#"><i class="glyphicon glyphicon-menu-right"></i></a></span>
+        </div>
+        <div class="user_infoDIv">
+            <span style="background:#F69463;" class="icon_span"><i class="glyphicon glyphicon-lock"></i></span>
+            <span class="user_infoTxt">修改密码<a href="#"><i class="glyphicon glyphicon-menu-right"></i></a></span>
+        </div>
+        <div class="user_infoDIv">
+            <span style="background:#F784A5;" class="icon_span"><i class="glyphicon glyphicon-qrcode"></i></span>
+            <span class="user_infoTxt">优惠券<a href="#"><i class="glyphicon glyphicon-menu-right"></i></a></span>
+        </div>
+        <div class="user_infoDIv">
+            <span style="background:#30B5D6;" class="icon_span"><i class="glyphicon glyphicon-map-marker"></i></span>
+            <span class="user_infoTxt">收货地址<a href="#"><i class="glyphicon glyphicon-menu-right"></i></a></span>
+        </div>
+        <div class="user_infoDIv">
+            <span style="background:#405E90;" class="icon_span"> <i class="glyphicon glyphicon-off"></i></span>
+            <span class="user_infoTxt">退出</span>
+        </div>
+    </div>
+</div>
+<script>
+    $(function (){
+        $(".back_span").click(function (){
+            history.back();
+        });
+    });
+</script>
+</body>
+</html>
